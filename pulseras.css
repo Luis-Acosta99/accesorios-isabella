@@ -1,0 +1,361 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:white;
+/*  background:url('file:///Users/luisacosta/Downloads/mac-os-x-snow-leopard-wallpaper-1.jpg') black no-repeat 95% 45%;
+  background-position: bottom;
+  background-size:cover;
+  background-attachment:fixed;
+  */
+}
+.logo{
+	align-items:center;
+	background-color: grey;
+	opacity:0.5;
+	width:1250px;
+	height: 65px;
+	position:relative;
+	bottom: 0;
+	}
+.logoback{
+	position:relative;
+	bottom: 87px;
+	left:1100px;
+	opacity:0.8;
+	background-color:white;
+	width: 150px;
+	height: 65px;
+	}
+.logoimg{
+	position:relative;
+	bottom: 161px;
+	left: 1099px;
+	width: 129px;
+	height: 80px;
+		}
+
+.a:hover, .logo:hover{
+		
+	background-color:dark-grey;
+	
+	color:pink;
+		}
+
+/*.buttonBack:hover{
+	background-color: rgba(163,54,222,1.00);
+	height:50px;
+	width: 1100px;
+	}
+	*/
+.buttonBack{
+	background-color:black;
+	height:50px;
+	width: 1100px;
+	bottom: 245px;
+	position:relative;
+		}
+	
+.buttonHome{
+		position:relative;
+		bottom: 302px;
+		left: 1050px;
+		width:50px;
+		}
+		
+.buttonTienda {
+	position:relative;
+	text-align:center;
+	display: block;
+	bottom:356px;
+	height: 50px;
+	width: 200px;
+		}
+.buttonTienda a, .buttonNosotros a, .buttonContacto a {
+	color: white;
+	}
+.buttonTienda:hover{
+		background-color:grey;
+		}
+.buttonTienda:hover .lista {
+		display: block;
+		}
+.lista a: hover{
+		background-color: grey;
+		}	
+.lista {
+		 display: none;
+    position: relative;
+	bottom: -20px;
+	background-color:black;
+	text-height:100px;
+	line-height:40px;
+		}
+		
+
+		
+	/* ya ni pedo, si salio*/
+
+
+
+
+.buttonNosotros{
+	position:relative;
+	text-align:center;
+	display: block;
+	bottom:406px;
+	height: 50px;
+	width: 200px;
+	left:200px;
+	}
+.buttonNosotros a{
+	color: white;
+	}
+
+.buttonContacto:hover,.buttonNosotros:hover{
+	background-color: grey;
+	}
+	
+.buttonContacto{
+	position:relative;
+	bottom: 456px;
+	left: 400px;	
+	width: 200px;
+	text-align:center;
+	height:50px;
+	display:block;
+			}
+			
+	/* pop up de las imagenes*/
+	ul.firstRowDescription{
+		list-style-type:none;
+		position:relative;
+		bottom: 300px; 
+		left: 110px;
+		width: 1100px;
+		}
+		
+	ul.firstRowDescription li{
+		display:inline-block; 
+		position: relative; 
+		z-index: 0; 
+		margin:10px 40px 10px 20px; 
+			}		
+	ul.firstRowDescription span{
+		position:absolute; 
+		left: -9999px;
+			}
+	ul.firstRowDescription img{
+/*give the thumbnails a frame*/
+background-color:#eae9d4; 
+/*frame colour*/
+padding: 2px; 
+/*frame size*/
+/*add a drop shadow to the frame*/
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+/*and give the corners a small curve*/
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 10px;
+padding:3px;
+position: static;
+		}
+		
+	ul.firstRowDescription li:hover{
+z-index: 50; 
+	/*places the popups infront of
+	the thumbnails, which we gave a 
+	z-index of 0 in step 1*/ 
+	cursor:pointer; 
+		}
+ul.firstRowDescription{
+	left:100px;
+	position: relative; 
+	}	
+
+	ul.firstRowDescription li:hover span{ 
+top: -199px; 
+left: -30px; 
+padding: 70px;
+}
+/***To make it look neater we used :nth-child to set a different left distance for each image***/ 
+ul.firstRowDescription li:hover:nth-child(1) span{
+	left: -50px;
+	top: -90px;
+	}
+	ul.firstRowDescription li:hover:nth-child(6) span{
+	left: -50px;
+	top: -90px;
+	}
+	ul.firstRowDescription li:hover:nth-child(11) span{
+	left: -50px;
+	top: -90px;
+	}
+	
+ul.firstRowDescription li:hover:nth-child(2) span{
+left: -65px; 
+top: -90px;
+}
+ul.firstRowDescription li:hover:nth-child(7) span{
+left: -65px; 
+top: -90px;
+}
+ul.firstRowDescription li:hover:nth-child(12) span{
+left: -65px; 
+top: -90px;
+}
+ul.firstRowDescription li:hover:nth-child(3) span{
+left: -50px; 
+top: -102px;
+}
+ul.firstRowDescription li:hover:nth-child(8) span{
+left: -50px; 
+top: -102px;
+}ul.firstRowDescription li:hover:nth-child(13) span{
+left: -50px; 
+top: -102px;
+}
+ul.firstRowDescription li:hover:nth-child(4) span{
+	left: -65px;
+	top: -102px;
+	}
+ul.firstRowDescription li:hover:nth-child(9) span{
+	left: -65px;
+	top: -102px;
+	}
+ul.firstRowDescription li:hover:nth-child(14) span{
+	left: -65px;
+	top: -102px;
+	}
+	ul.firstRowDescription li:hover:nth-child(5) span{
+	left: -50px;
+	top: -102px;
+	}
+	ul.firstRowDescription li:hover:nth-child(10) span{
+	left: -50px;
+	top: -102px;
+	}
+	ul.firstRowDescription li:hover:nth-child(15) span{
+	left: -50px;
+	top: -102px;
+	}
+ul.firstRowDescription li{
+	position:relative;
+	left: -120px;
+	}
+	
+ul.firstRowDescription span img{
+	padding: 0px; 
+	background: grey;
+	width:250px;
+	position:relative;
+	bottom: 60px;
+	left: -50px;
+		}
+		
+ul.firstRowDescription span{
+padding: 5px; /*size of the frame*/
+background:black; /*colour of the frame*/
+line-height: 0px;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+box-shadow: 0 0 20px rgba(0,0,0, .75);
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius:30px;
+font-family: 'Droid Sans', sans-serif; 
+font-size:2em;
+text-align: center;
+color: black;
+font-style:italic;
+width: 150px;
+height: 100px;
+overflow-y: scroll;
+overflow-x: hidden;
+color:white;
+font-size:20px;
+line-height:0.1px;
+	}
+	.titulo{
+		position:relative;
+		bottom:899px;
+		left: 450px;
+		width:400px;
+		align-content:center;
+		line-height:20px;
+		text-align:center;
+		}
+		
+			.facebook{ 
+	position:relative;
+	bottom: 1048px;
+	left: 970px;
+	border-color:white;
+	background-color:white;
+	width: 50px;
+	height: 50px;	
+	padding: 4px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 100px;
+		}
+		
+	.facebook img{
+		border-radius: 100px;
+		}
+	.facebook:hover{
+		background-color: red;
+		}
+		.facebook:active{
+			background-color: purple;
+			}
+.instagram{ 
+	position:relative;
+	bottom: 1104.5px;
+	left: 901px;
+	border-color:white;
+	background-color:white;
+	width: 50px;
+	height: 50px;	
+	padding: 4px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+		}
+		
+	.instagram img{
+		border-radius: 25px;
+		position:relative;
+		left: -2px;
+		bottom: 3.5px;
+		}
+	.instagram:hover, .buttonHome:hover{
+		background-color: red;
+		}
+		.instagram:active, .buttonHome:active{
+			background-color: purple;
+			}
+			
+.buttonHome{
+		height: 51px;
+		border-radius: 20px;
+		background-color: white;
+		width:50px;
+		padding: 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 29px;
+	bottom: 299px;
+	position:relative;
+	left: 1037px;
+		}
+.buttonHome img{
+		position:relative;
+		left: -4px;
+		bottom: 3px;
+		width:55px;
+		height: 53px;
+		border-radius: 100px;
+		padding:2px;
+		}

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:white;
+/*  background:url('file:///Users/luisacosta/Downloads/mac-os-x-snow-leopard-wallpaper-1.jpg') black no-repeat 95% 45%;
+  background-position: bottom;
+  background-size:cover;
+  background-attachment:fixed;
+  */
+}
+.logo{
+	align-items:center;
+	background-color: grey;
+	opacity:0.5;
+	width:1250px;
+	height: 65px;
+	position:relative;
+	bottom: 0;
+	}
+.logoback{
+	position:relative;
+	bottom: 87px;
+	left:1100px;
+	opacity:0.8;
+	background-color:white;
+	width: 150px;
+	height: 65px;
+	}
+.logoimg{
+	position:relative;
+	bottom: 161px;
+	left: 1099px;
+	width: 129px;
+	height: 80px;
+		}
+
+.a:hover, .logo:hover{
+		
+	background-color:dark-grey;
+	
+	color:pink;
+		}
+
+/*.buttonBack:hover{
+	background-color: rgba(163,54,222,1.00);
+	height:50px;
+	width: 1100px;
+	}
+	*/
+.buttonBack{
+	background-color:black;
+	height:50px;
+	width: 1100px;
+	bottom: 245px;
+	position:relative;
+		}
+	
+.buttonHome{
+		position:relative;
+		bottom: 302px;
+		left: 1050px;
+		width:50px;
+		}
+		
+.buttonTienda {
+	position:relative;
+	text-align:center;
+	display: block;
+	bottom:362px;
+	height: 50px;
+	width: 200px;
+		}
+.buttonTienda a, .buttonNosotros a, .buttonContacto a {
+	color: white;
+	}
+.buttonTienda:hover{
+		background-color:grey;
+		}
+.buttonTienda:hover .lista {
+		display: block;
+		}
+.lista a: hover{
+		background-color: grey;
+		}	
+.lista {
+		 display: none;
+    position: relative;
+	bottom: -20px;
+	background-color:black;
+	text-height:100px;
+	line-height:40px;
+		}
+		
+		
+		
+	/* ya ni pedo, si salio*/
+
+
+
+
+.buttonNosotros{
+	position:relative;
+	text-align:center;
+	display: block;
+	bottom:412px;
+	height: 50px;
+	width: 200px;
+	left:200px;
+	}
+.buttonNosotros a{
+	color: white;
+	}
+
+.buttonContacto:hover,.buttonNosotros:hover{
+	background-color: grey;
+	}
+	
+.buttonContacto{
+	position:relative;
+	bottom: 462px;
+	left: 400px;	
+	width: 200px;
+	text-align:center;
+	height:50px;
+	display:block;
+			}
+	

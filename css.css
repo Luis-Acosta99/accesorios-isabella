@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:white;
+/*  background:url('file:///Users/luisacosta/Downloads/mac-os-x-snow-leopard-wallpaper-1.jpg') black no-repeat 95% 45%;
+  background-position: bottom;
+  background-size:cover;
+  background-attachment:fixed;
+  */
+}
+.logo{
+	align-items:center;
+	background-color: grey;
+	opacity:0.5;
+	width:1250px;
+	height: 65px;
+	position:relative;
+	bottom: 0;
+	}
+.logoback{
+	position:relative;
+	bottom: 87px;
+	left:1100px;
+	opacity:0.8;
+	background-color:white;
+	width: 150px;
+	height: 65px;
+	}
+.logoimg{
+	position:relative;
+	bottom: 161px;
+	left: 1099px;
+	width: 129px;
+	height: 80px;
+		}
+
+.a:hover, .logo:hover{
+		
+	background-color:dark-grey;
+	
+	color:pink;
+		}
+
+/*.buttonBack:hover{
+	background-color: rgba(163,54,222,1.00);
+	height:50px;
+	width: 1100px;
+	}
+	*/
+.buttonBack{
+	background-color:black;
+	height:50px;
+	width: 1100px;
+	bottom: 245px;
+	position:relative;
+		}
+	
+	.buttonHome{
+		height: 51px;
+		border-radius: 20px;
+		background-color: white;
+		width:50px;
+		padding: 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 29px;
+	bottom: 299px;
+	position:relative;
+	left: 1037px;
+		}
+.buttonHome img{
+		position:relative;
+		left: -4px;
+		bottom: 3px;
+		width:55px;
+		height: 53px;
+		border-radius: 100px;
+		padding:2px;
+		}
+		
+.buttonTienda {
+	position:relative;
+	text-align:center;
+	display: block;
+	bottom:356px;
+	height: 50px;
+	width: 200px;
+		}
+.buttonTienda a, .buttonNosotros a, .buttonContacto a {
+	color: white;
+	}
+.buttonTienda:hover{
+		background-color:grey;
+		}
+.buttonTienda:hover .lista {
+		display: block;
+		}
+.lista a: hover{
+		background-color: grey;
+		}	
+.lista {
+		 display: none;
+    position: relative;
+	bottom: -20px;
+	background-color:black;
+	text-height:100px;
+	line-height:40px;
+		}
+		.pulsera:hover, .aretes:hover, .collares:hover{
+			background-color:grey;
+			}
+		
+		
+		
+	/* ya ni pedo, si salio*/
+
+
+
+
+.buttonNosotros{
+	position:relative;
+	text-align:center;
+	display: block;
+	bottom:406px;
+	height: 50px;
+	width: 200px;
+	left:200px;
+	}
+.buttonNosotros a{
+	color: white;
+	}
+
+.buttonContacto:hover,.buttonNosotros:hover{
+	background-color: grey;
+	}
+	
+.buttonContacto{
+	position:relative;
+	bottom: 456px;
+	left: 400px;	
+	width: 200px;
+	text-align:center;
+	height:50px;
+	display:block;
+			}
+	.titulo{
+		position: relative;
+		bottom: 450px;
+		align-items:center;
+		left: 400px;
+		color: black;
+		font-size: 16px;
+		width:400px;
+		}
+	.facebook{ 
+	position:relative;
+	bottom: 590px;
+	left: 970px;
+	border-color:white;
+	background-color:white;
+	width: 50px;
+	height: 50px;	
+	padding: 4px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 100px;
+		}
+		
+	.facebook img{
+		border-radius: 100px;
+		}
+	.facebook:hover{
+		background-color: red;
+		}
+		.facebook:active{
+			background-color: purple;
+			}
+.instagram{ 
+	position:relative;
+	bottom: 647px;
+	left: 901px;
+	border-color:white;
+	background-color:white;
+	width: 50px;
+	height: 50px;	
+	padding: 4px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+		}
+		
+	.instagram img{
+		border-radius: 25px;
+		position:relative;
+		left: -2px;
+		bottom: 3.5px;
+		}
+	.instagram:hover, .buttonHome:hover{
+		background-color: red;
+		}
+		.instagram:active, .buttonHome:active{
+			background-color: purple;
+			}
